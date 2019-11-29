@@ -490,6 +490,18 @@ window.addEventListener("scroll", addClassVisible);
     </div>
 
   </section>
+
+  <!-- Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150729139-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150729139-1');
+</script>
+
   <!--/ Contact-footer End /-->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
